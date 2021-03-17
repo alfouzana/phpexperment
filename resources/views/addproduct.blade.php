@@ -3,7 +3,7 @@
 <div class="row">
 
 <form action="submit" method="POST">
-
+@csrf
 <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">إسم المنتج</label>
   <input class="form-control" id="exampleFormControlInput1"name="productname" placeholder="إسم المنتج">

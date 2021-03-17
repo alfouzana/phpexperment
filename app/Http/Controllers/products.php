@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class products extends Controller
 {
     function save(Request $req) {
-return 1;
+        print_r($req->input());
     }
 }
