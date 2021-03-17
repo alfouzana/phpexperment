@@ -2,7 +2,7 @@
 
 <div class="row">
 
-<form action="submit" method="post">
+<form action="submit" method="POST">
 
 <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">إسم المنتج</label>
