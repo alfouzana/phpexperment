@@ -37,7 +37,7 @@
 </div>
 
 <div class="mb-3">
-<button type="button" class="btn btn-primary btn-lg">إضافة المنتج</button>
+<button type="submit" class="btn btn-primary btn-lg">إضافة المنتج</button>
 </div>
 </form>
 
