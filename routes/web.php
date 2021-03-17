@@ -21,4 +21,4 @@ Route::get('/addproduct', function () {
     return view('addproduct');
 });
 
-Route::get('submit','products@save');
+Route::post('submit','products@save');
