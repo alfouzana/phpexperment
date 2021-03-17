@@ -1,8 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use app\Http\Controllers\products;
-
+use App\Http\Controllers\products;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,4 +21,5 @@ Route::get('/addproduct', function () {
     return view('addproduct');
 });
 
+Route::post('submit',[products::class, 'save']);
 Route::post('submit',[products::class, 'save']);
