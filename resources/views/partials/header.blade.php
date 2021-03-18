@@ -10,9 +10,9 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album-rtl/">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://econabdullah.com/wp-content/uploads/2021/03/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://econabdullah.com/wp-content/uploads/2021/03/favicon-32x32-1.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://econabdullah.com/wp-content/uploads/2021/03/favicon-16x16-1.png">
     <link rel="manifest" href="site.webmanifest">
     
 
