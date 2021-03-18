@@ -14,6 +14,9 @@
 <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">تفاصيل المدونة</label>
   <textarea id="summernote" name="blogpost"></textarea></div>
+
+  <button class="btn btn-primary" type="button">Button</button>
+
 </form>
 
 
