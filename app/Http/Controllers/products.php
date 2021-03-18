@@ -16,8 +16,8 @@ class products extends Controller
             'productlink'=>$req->input('link'),
             'imagelink'=>$req->input('imgurl'),
             'category'=>$req->input('cat'),
-            'updated_at'=>toDateTimeString(),
-            'created_at'=>toDateTimeString(),
+            'updated_at'=>\Carbon\Carbon::now()->toDateTimeString(),
+            'created_at'=>\Carbon\Carbon::now()->toDateTimeString(),
 
 
 
