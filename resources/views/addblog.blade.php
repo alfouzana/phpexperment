@@ -21,7 +21,7 @@
 
 <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">تفاصيل المدونة</label>
-  <textarea id="summernote"  rows="3" name="blogpost"></textarea></div>
+  <textarea id="summernote"  rows="6" name="blogpost"></textarea></div>
   <div class="mb-3">
   <button class="btn btn-primary" type="submit">إضافة مدونة</button>
   </div>
