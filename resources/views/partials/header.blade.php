@@ -72,8 +72,17 @@
         <p class="lead text-muted">من اثاث لبيتك، إلى مطبخك، إلى راحت منزلك، من نص الصين إلى وسط الرياض</p>
         <p>
         <?php 
-        $unique = $affP->unique();?>
-        @foreach ($unique as $product)
+
+$uniqueCollection = $affP->unique(function ($item) {
+  return $item['category'];
+});
+
+
+        
+        
+        
+        ?>
+        @foreach ($uniqueCollection as $product)
           <a href="/{{$product['category']}}" class="btn btn-secondary my-2">{{$product['category']}}</a>
         @endforeach
         </p>
