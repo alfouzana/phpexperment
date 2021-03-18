@@ -61,14 +61,7 @@
           
 
         </div>
-        <div class="col-sm-2 offset-md-1 py-4">
-        <h4 class="text-white">إدارة المتجر</h4>
-          <ul class="nav flex-column">
-  <li class="nav-item">
-    <a class="nav-link text-white" aria-current="page" href="/addproduct">إضافة منتج</a>
-  </li>
-          </ul>
-        </div>
+        
       </div>
     </div>
   </div>
