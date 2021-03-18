@@ -14,7 +14,7 @@ use App\Http\Controllers\homeProdcutsControllers;
 |
 */
 
-Route::get('/{name}', [homeProdcutsControllers::class, 'show']);
+Route::get('/{{name}}', [homeProdcutsControllers::class, 'show']);
 
 
 
