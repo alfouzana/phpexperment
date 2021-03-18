@@ -13,7 +13,7 @@ class homeProdcutsControllers extends Controller
 {
     //
 
-    function show()
+    public function show()
     {
 
         $products = product::all();
