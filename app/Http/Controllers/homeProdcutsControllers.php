@@ -17,6 +17,6 @@ class homeProdcutsControllers extends Controller
     {
 
         $products = product::all();
-        return view('welcome',compact($products));
+        return view('welcome',['affP'=>$products]);
     }
 }
