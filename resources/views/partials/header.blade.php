@@ -55,13 +55,13 @@
           <h4 class="text-white">من نحن</h4>
           <p class="text-muted">نؤمن أن الشراء من الإنترنت هو أفضل وسيلة لتوفير المال، ولكن يجب عليك ان تتسوق بشكل أمن. لذالك قررنا منحك أفضل المنتجات الموجودة في الصين</p>
         </div>
-        <div class="col-sm-4 offset-md-1 py-4">
+        <div class="col-sm-2 offset-md-1 py-4">
           <h4 class="text-white">أقسام المتجر</h4>
           @include('partials.link')
           
 
         </div>
-        <div class="col-sm-8 col-md-7 py-4">
+        <div class="col-sm-2 offset-md-1 py-4">
         <h4 class="text-white">إدارة المتجر</h4>
           <ul class="nav flex-column">
   <li class="nav-item">
