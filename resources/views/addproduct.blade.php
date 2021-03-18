@@ -3,7 +3,7 @@
 <div class="row">
 @if(Session::get('sucess'))
 <div class="alert alert-success">
-{{ Session::get('success')}}
+{{ Session::get('sucess')}}
 </div>
 @endif
 @if(Session::get('error'))

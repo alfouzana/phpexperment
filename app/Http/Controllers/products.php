@@ -22,10 +22,10 @@ class products extends Controller
 
         if ($query){
 
-            return back()->with('sucess','data inserted');
+            return back()->with('sucess','تم إضافة المنتج بنجاح');
         }else {
 
-            return back()->with('error','data not inserted');
+            return back()->with('error','لأسف حدث خطأ فادح');
 
         }
 
