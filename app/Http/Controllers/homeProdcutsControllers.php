@@ -13,10 +13,18 @@ class homeProdcutsControllers extends Controller
 {
     //
 
-    public function show()
+    public function show(Request $req)
     {
+        if ($req->path() = '')
+        {
+            $products = product::all();
+        } else {
 
-        $products = product::all();
+            $products = product::all()->where('$req->path()');
+        }
+
+        
+        
         $products = $products -> shuffle();
         return view('welcome',['affP'=>$products]);
     }
