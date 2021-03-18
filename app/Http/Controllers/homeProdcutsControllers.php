@@ -21,9 +21,8 @@ class homeProdcutsControllers extends Controller
             $products = product::all();
         } else {
 
-            $products = product::all()->where('category','=','$name');
-            dd($products);
-        }
+            $products = DB::select("SELECT * FROM products where category = ?",[$name]);
+            
 
         
         
