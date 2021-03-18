@@ -70,8 +70,9 @@
         <h1 class="fw-light">صنع في الصين</h1>
         <p class="lead text-muted">من اثاث لبيتك، إلى مطبخك، إلى راحت منزلك، من نص الصين إلى وسط الرياض</p>
         <p>
-          <a href="#" class="btn btn-primary my-2">المنتجات الأكثر طلباً</a>
-          <a href="#" class="btn btn-secondary my-2">أسرع شحن</a>
+        @foreach ($affP as $product)
+          <a href="/{{$product['category']}}" class="btn btn-secondary my-2">{{$product['category']}}</a>
+        @endforeach
         </p>
       </div>
     </div>
