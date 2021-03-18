@@ -71,7 +71,8 @@
         <h1 class="fw-light">صنع في الصين</h1>
         <p class="lead text-muted">من اثاث لبيتك، إلى مطبخك، إلى راحت منزلك، من نص الصين إلى وسط الرياض</p>
         <p>
-        $unique = $affP['category']->unique();
+        <?php 
+        $unique = $affP['category']->unique();?>
         @foreach ($unique as $product)
           <a href="/{{$product['category']}}" class="btn btn-secondary my-2">{{$product['category']}}</a>
         @endforeach
