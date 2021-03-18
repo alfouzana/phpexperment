@@ -56,8 +56,15 @@
           <p class="text-muted">نؤمن أن الشراء من الإنترنت هو أفضل وسيلة لتوفير المال، ولكن يجب عليك ان تتسوق بشكل أمن. لذالك قررنا منحك أفضل المنتجات الموجودة في الصين</p>
         </div>
         <div class="col-sm-4 offset-md-1 py-4">
-          <h4 class="text-white">اتصل</h4>
+          <h4 class="text-white">أقسام المتجر</h4>
           @include('partials.link')
+          <h4 class="text-white">إدارة المتجر</h4>
+          <ul class="nav flex-column">
+  <li class="nav-item">
+    <a class="nav-link text-white" aria-current="page" href="/addproduct">إضافة منتج</a>
+  </li>
+          </ul>
+
         </div>
       </div>
     </div>

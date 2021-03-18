@@ -1,8 +1,6 @@
 
           <ul class="nav flex-column">
-  <li class="nav-item">
-    <a class="nav-link text-white" aria-current="page" href="/addproduct">إضافة منتج</a>
-  </li>
+ 
   <li class="nav-item">
     <a class="nav-link text-white" href="/الإنارة">الإنارة</a>
   </li>
