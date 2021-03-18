@@ -1,9 +1,10 @@
 @include('partials.header')
 <?php
+$data = json_decode($affP, true);
 
      ?>;
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-      @foreach ($affP as $product)
+      @foreach ($data as $product)
         <div class="col">
           <div class="card shadow-sm">
           <img src="{{$product['imagelink']}}" class="card-img-top" alt="Girl in a jacket">
