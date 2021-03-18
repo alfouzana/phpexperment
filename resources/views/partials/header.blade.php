@@ -14,7 +14,10 @@
     <link rel="icon" type="image/png" sizes="32x32" href="https://econabdullah.com/wp-content/uploads/2021/03/favicon-32x32-1.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://econabdullah.com/wp-content/uploads/2021/03/favicon-16x16-1.png">
     <link rel="manifest" href="site.webmanifest">
-    
+    <!-- include libraries(jQuery, bootstrap) -->
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
     <!-- Bootstrap core CSS -->
