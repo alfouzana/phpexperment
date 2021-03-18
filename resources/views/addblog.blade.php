@@ -16,10 +16,6 @@
   <textarea id="summernote" name="blogpost"></textarea></div>
 </form>
 
-<script>
-    $(document).ready(function() {
-        $('#summernote').summernote();
-    });
-  </script>
+
 
 @include('partials.footer')
