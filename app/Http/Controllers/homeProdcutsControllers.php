@@ -22,8 +22,9 @@ class homeProdcutsControllers extends Controller
         } else {
 
             $products = DB::select("SELECT * FROM products where category = ?",[$name]);
-            dd($products);
+            
         }
+        $products = shuffle($products['id']);
         return view('welcome',['affP'=>$products]);
     }
 }
