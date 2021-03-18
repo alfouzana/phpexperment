@@ -10,7 +10,7 @@ class products extends Controller
 {
     function save(Request $req) {
         
-        $query = DB::table('product')->insert([
+        $query = DB::table('table_product')->insert([
             'name'=>$req->input('productname'),
             'price'=>$req->input('price'),
             'productlink'=>$req->input('link'),
