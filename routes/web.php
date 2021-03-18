@@ -19,8 +19,6 @@ Route::get('/', [homeProdcutsControllers::class, 'show']);
 
 
 
-Route::get('/addproduct', function () {
-    return view('addproduct');
-});
-
+Route::get('/addproduct',[products::class, 'show']);
 Route::post('submit',[products::class, 'save']);
+

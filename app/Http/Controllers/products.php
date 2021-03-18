@@ -8,6 +8,14 @@ use DB;
 
 class products extends Controller
 {
+
+    function show () {
+
+        return view('addproduct');
+
+    }
+
+
     function save(Request $req) {
         
         $query = DB::table('products')->insert([
@@ -23,6 +31,8 @@ class products extends Controller
 
 
         ]);
+
+        
 
         if ($query){
 
