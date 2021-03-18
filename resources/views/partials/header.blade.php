@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.80.0">
-    <title>مثال الألبوم · Bootstrap v5.0</title>
+    <title>صنع في الصين</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album-rtl/">
 
@@ -39,8 +39,8 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-8 col-md-7 py-4">
-          <h4 class="text-white">حول</h4>
-          <p class="text-muted">أضف بعض المعلومات حول الألبوم أدناه أو المؤلف أو أي سياق خلفية آخر. اجعلها بضع جمل طويلة حتى يتمكن الناس من التقاط بعض الحكايات المفيدة. ثم اربطها ببعض مواقع التواصل الاجتماعي أو معلومات الاتصال.</p>
+          <h4 class="text-white">من نحن</h4>
+          <p class="text-muted">نؤمن أن الشراء من الإنترنت هو أفضل وسيلة لتوفير المال، ولكن يجب عليك ان تتسوق بشكل أمن. لذالك قررنا منحك أفضل المنتجات الموجودة في الصين</p>
         </div>
         <div class="col-sm-4 offset-md-1 py-4">
           <h4 class="text-white">اتصل</h4>
@@ -51,9 +51,9 @@
   </div>
   <div class="navbar navbar-dark bg-dark shadow-sm">
     <div class="container">
-      <a href="#" class="navbar-brand d-flex align-items-center">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
-        <strong>الألبوم</strong>
+      <a href="/" class="navbar-brand d-flex align-items-center">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2V6l-3-4H6zM3.8 6h16.4M16 10a4 4 0 1 1-8 0"/></svg>
+              <strong>صنع في الصين</strong>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="تبديل التنقل">
         <span class="navbar-toggler-icon"></span>
