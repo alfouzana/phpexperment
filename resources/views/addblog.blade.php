@@ -1,0 +1,26 @@
+@include('partials.header')
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+
+<form action="submit" method="post">
+<input type="hidden" name="method" value="PUT">
+<input type="hidden" name="_token" value="{{ csrf_token() }}">"
+@csrf
+
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">عنوان المدونة</label>
+  <input class="form-control form-control-lg" name="blogtitle" type="text" placeholder="عنوان المدونة" aria-label=".form-control-lg example">
+</div>
+
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">تفاصيل المدونة</label>
+  <textarea id="summernote" name="blogpost"></textarea></div>
+</form>
+
+<script>
+    $(document).ready(function() {
+        $('#summernote').summernote();
+    });
+  </script>
+
+@include('partials.footer')

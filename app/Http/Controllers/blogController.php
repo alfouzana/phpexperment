@@ -12,4 +12,9 @@ class blogController extends Controller
         return view('blog');
 
     }
+    function add () {
+
+        return view('addblog');
+
+    }
 }
