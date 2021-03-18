@@ -1,19 +1,15 @@
-<ul class="list-unstyled">
-            <li><a href="/addproduct" class="text-white">اضف منتج</a></li>
-         
-          </ul>
 
           <ul class="nav flex-column">
   <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Active</a>
+    <a class="nav-link text-white" aria-current="page" href="/addproduct">إضافة منتج</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link text-white" href="#">Link</a>
+    <a class="nav-link text-white" href="/الإنارة">الإنارة</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link text-white" href="#">Link</a>
+    <a class="nav-link text-white" href="/الإلكترونيات">الإلكترونيات</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link text-white" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    <a class="nav-link text-white" href="/مستلزمات المنزل" tabindex="-1" >مستلزمات المنزل</a>
   </li>
 </ul>
