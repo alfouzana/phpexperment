@@ -8,7 +8,8 @@
           <img src="{{$product['imagelink']}}" class="card-img-top" alt="Girl in a jacket">
 
             <div class="card-body">
-              <p class="card-text">{{$product['name']}}</p>
+            <h5 class="card-title">{{$product['name']}}</h5>
+              <p class="card-text">{{$product['category']}}</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                  <a href="{{$product['productlink']}}" class="btn btn-sm btn-outline-secondary">إشتريه من علي إكسبريس</a> 
