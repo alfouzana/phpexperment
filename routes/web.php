@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\products;
 use App\Http\Controllers\homeProdcutsControllers;
+use App\Http\Controllers\blogController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,6 +17,7 @@ use App\Http\Controllers\homeProdcutsControllers;
 */
 
 Route::get('/', [homeProdcutsControllers::class, 'main']);
+Route::get('/blog', [homeProdcutsControllers::class, 'main']);
 Route::get('/addproduct',[products::class, 'show']);
 Route::POST('/submit',[products::class, 'save']);
 Route::get('/{name}', [homeProdcutsControllers::class, 'show', '$name']);
