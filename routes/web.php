@@ -24,4 +24,3 @@ Route::get('/addproduct', function () {
 });
 
 Route::post('submit',[products::class, 'save']);
-Route::post('submit',[products::class, 'save']);
