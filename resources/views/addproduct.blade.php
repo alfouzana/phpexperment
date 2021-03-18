@@ -12,6 +12,10 @@
 </div>
 @endif
 <form action="submit" method="POST">
+<input type="hidden" name="method" value="PUT">
+<input type="hidden" name="_token" value="{{ csrf_token() }}">"
+
+
 @csrf
 <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">إسم المنتج</label>
