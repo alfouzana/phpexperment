@@ -12,6 +12,11 @@ use App\Models\product;
 class homeProdcutsControllers extends Controller
 {
     //
+    public function main()
+{
+    $products = product::all();
+    return view('welcome',['affP'=>$products]);
+}
 
     public function show($name)
     {
