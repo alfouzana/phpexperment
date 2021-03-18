@@ -16,7 +16,8 @@ class homeProdcutsControllers extends Controller
     public function show()
     {
 
-        $products = product::all()->random();
+        $products = product::all();
+        $products = $products -> shuffle();
         return view('welcome',['affP'=>$products]);
     }
 }
