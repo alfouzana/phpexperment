@@ -22,10 +22,10 @@ class products extends Controller
 
         if ($query){
 
-            return bacl()->with('sucess','data inserted');
+            return back()->with('sucess','data inserted');
         }else {
 
-            return bacl()->with('error','data not inserted');
+            return back()->with('error','data not inserted');
 
         }
 
