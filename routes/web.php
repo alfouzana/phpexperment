@@ -14,11 +14,12 @@ use App\Http\Controllers\homeProdcutsControllers;
 |
 */
 
-Route::get('/', [homeProdcutsControllers::class, 'show']);
+Route::get('/{name}', [homeProdcutsControllers::class, 'show']);
 
 
 
 
 Route::get('/addproduct',[products::class, 'show']);
 Route::POST('/submit',[products::class, 'save']);
+
 

@@ -13,14 +13,14 @@ class homeProdcutsControllers extends Controller
 {
     //
 
-    public function show(Request $req)
+    public function show($name)
     {
-        if ($req->path() == '/')
+        if ($name == '/')
         {
             $products = product::all();
         } else {
-dd($req->path());
-            $products = product::all()->where('category','=','$req->path()');
+
+            $products = product::all()->where('category','=','$name');
         }
 
         
