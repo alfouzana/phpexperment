@@ -17,7 +17,6 @@ class homeProdcutsControllers extends Controller
     {
 
         $products = product::all();
-        dd($products);
-        return view('welcome');
+        return view('welcome',compact($products));
     }
 }
