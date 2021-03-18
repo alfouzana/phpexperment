@@ -10,10 +10,10 @@
     <p class="float-end mb-1">
       <a href="#">عد إلى الأعلى</a>
     </p>
-    <h4 class="text-white">إدارة المتجر</h4>
+    <h4 >إدارة المتجر</h4>
           <ul class="nav flex-column">
   <li class="nav-item">
-    <a class="nav-link text-white" aria-current="page" href="/addproduct">إضافة منتج</a>
+    <a class="nav-link" aria-current="page" href="/addproduct">إضافة منتج</a>
   </li>
           </ul>
     <p class="mb-1">جميع الروابط هي روابط تسويق بالعمولة</p>
