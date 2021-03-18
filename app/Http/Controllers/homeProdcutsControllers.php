@@ -22,6 +22,7 @@ class homeProdcutsControllers extends Controller
         } else {
 
             $products = product::all()->where('category','=','$name');
+            dd($products);
         }
 
         
