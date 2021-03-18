@@ -15,7 +15,7 @@ class homeProdcutsControllers extends Controller
 
     public function show($name)
     {
-        db($name);
+        dd($name);
         if ($name == '/')
         {
             $products = product::all();
