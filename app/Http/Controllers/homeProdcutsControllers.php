@@ -19,7 +19,7 @@ class homeProdcutsControllers extends Controller
         {
             $products = product::all();
         } else {
-
+dd($req->path());
             $products = product::all()->where('category','=','$req->path()');
         }
 
