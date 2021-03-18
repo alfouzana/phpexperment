@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\products;
+use App\Http\Controllers\homeProdcutsControllers;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,9 +14,10 @@ use App\Http\Controllers\products;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [homeProdcutsControllers::class. 'show']);
+
+
+
 
 Route::get('/addproduct', function () {
     return view('addproduct');
