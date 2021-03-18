@@ -5,7 +5,7 @@
       @foreach ($affP as $product)
         <div class="col">
           <div class="card shadow-sm">
-          <img src="{{$product['imagelink']}}" alt="Girl in a jacket">
+          <img src="{{$product['imagelink']}}" class="card-img-top" alt="Girl in a jacket">
 
             <div class="card-body">
               <p class="card-text">{{$product['name']}}</p>
