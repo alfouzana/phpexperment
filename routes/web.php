@@ -17,7 +17,7 @@ use App\Http\Controllers\blogController;
 */
 
 Route::get('/', [homeProdcutsControllers::class, 'main']);
-Route::get('/blog', [homeProdcutsControllers::class, 'main']);
+Route::get('/blog', [blogController::class, 'main']);
 Route::get('/addproduct',[products::class, 'show']);
 Route::POST('/submit',[products::class, 'save']);
 Route::get('/{name}', [homeProdcutsControllers::class, 'show', '$name']);
