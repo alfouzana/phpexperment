@@ -41,9 +41,7 @@
 <header>
 <?php 
 
-$uniqueCollection = $affP->unique(function ($item) {
-  return $item['category'];
-});
+
 
 
         
