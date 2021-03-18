@@ -5,13 +5,13 @@
       @foreach ($affP as $product)
         <div class="col">
           <div class="card shadow-sm">
-          <img src="{{$product['imagelink']}" alt="Girl in a jacket">
+          <img src="{{$product['imagelink']}}" alt="Girl in a jacket">
 
             <div class="card-body">
-              <p class="card-text">{{$product['name']]}}</p>
+              <p class="card-text">{{$product['name']}}</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                 <a href="{{$product['productlink']}" class="btn btn-sm btn-outline-secondary">إشتريه من علي إكسبريس</a> 
+                 <a href="{{$product['productlink']}}" class="btn btn-sm btn-outline-secondary">إشتريه من علي إكسبريس</a> 
                 </div>
                 <small class="text-muted">{{$product['price']}}</small>
               </div>
