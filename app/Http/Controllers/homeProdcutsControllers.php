@@ -15,7 +15,7 @@ class homeProdcutsControllers extends Controller
 
     public function show(Request $req)
     {
-        if ($req->path() = '/')
+        if ($req->path() == '/')
         {
             $products = product::all();
         } else {
