@@ -15,8 +15,6 @@ class homeProdcutsControllers extends Controller
 
     public function show($name)
     {
-        dd($name);
-
         
         if ($name == '/')
         {
