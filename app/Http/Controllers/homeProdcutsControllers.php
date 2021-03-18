@@ -4,11 +4,10 @@
 
 
 namespace App\Http\Controllers;
-namespace App\Models;
 
 use Illuminate\Http\Request;
 use DB;
-use product;
+use App\Models\product;
 
 class homeProdcutsControllers extends Controller
 {
