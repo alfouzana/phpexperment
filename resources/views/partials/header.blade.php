@@ -6,8 +6,9 @@
 <!-- Primary Meta Tags -->
 <title>صنع في الصين</title>
 <meta name="title" content="صنع في الصين">
-<meta name="description" content="{{$blogs->blogtitle ?? 'صنع في الصين'}}">
-
+@foreach ($blogs as $blog)
+<meta name="description" content="{{$blog->blogtitle ?? 'صنع في الصين'}}">
+@endforeach
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="http://igmentors.net/">
