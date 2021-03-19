@@ -5,13 +5,16 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use DB;
+use App\Models\blog;
 
 class blogController extends Controller
 {
     //
     function main () {
 
-        return view('blog');
+        $blogs = blog::all();
+        return view('blog',['blogs'=>$blogs]);
+        
 
     }
     function save(Request $req) {
