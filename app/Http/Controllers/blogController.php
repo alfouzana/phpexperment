@@ -17,6 +17,11 @@ class blogController extends Controller
         
 
     }
+    public function show($name)
+    {
+        $blogs = DB::select("SELECT * FROM blogs where blogtitle = ?",[$name]);
+        return view('article',['blogs'=>$blogs]);
+    }
     function save(Request $req) {
 
         $query = DB::table('blogs')->insert([

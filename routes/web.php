@@ -23,6 +23,7 @@ Route::get('/addproduct',[products::class, 'show']);
 Route::POST('/submit',[products::class, 'save']);
 Route::POST('/addblogtodb',[blogController::class, 'save']);
 Route::get('/{name}', [homeProdcutsControllers::class, 'show', '$name']);
+Route::get('/article/{name}', [blogController::class, 'show', '$name']);
 
 
 

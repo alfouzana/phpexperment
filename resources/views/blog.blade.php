@@ -11,7 +11,7 @@
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
-                    <h5 class="card-title">{{$blog->blogtitle}}</h5>
+                    <a href="/article/{{$blog->blogtitle}}"><h5 class="card-title">{{$blog->blogtitle}}</h5></a>
                     <p class="card-text">{{$blog->caption}}ً</p>
                     <p class="card-text"><small class="text-muted">{{$blog->updated_at}}</small></p>
                   </div>
