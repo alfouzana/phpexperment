@@ -23,7 +23,7 @@
 <meta property="twitter:description" content="إشتر من مصانع الصين مباشرة">
 <meta property="twitter:image" content="https://econabdullah.com/wp-content/uploads/2021/03/صنع-في-الصين-4.png">
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album-rtl/">
+    <link rel="canonical" href="http://igmentors.net/">
 
     <link rel="apple-touch-icon" sizes="180x180" href="https://econabdullah.com/wp-content/uploads/2021/03/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://econabdullah.com/wp-content/uploads/2021/03/favicon-32x32-1.png">
