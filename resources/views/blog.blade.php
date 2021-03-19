@@ -6,7 +6,7 @@
             <div class="card">
               <div class="row g-0">
                 <div class="col-md-4">
-                <img src="{{$blog->imgurl}}" class="card-img-top" style="width: 200px; height: 100px" alt="">
+                <img src="{{$blog->imgurl}}" class="card-img-top" style="width: 200px; height: 150px" alt="">
 
                 </div>
                 <div class="col-md-8">
