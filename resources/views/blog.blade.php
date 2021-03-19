@@ -1,6 +1,6 @@
 @include('partials.header')
 
-@foreach ($blog as $blog)
+@foreach ($blogs as $blog)
 
 <div class="col">
             <div class="card">
