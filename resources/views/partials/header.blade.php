@@ -13,14 +13,14 @@
 <meta property="og:url" content="http://igmentors.net/">
 <meta property="og:title" content="صنع في الصين">
 <meta property="og:description" content="إشتر من مصانع الصين مباشرة">
-<meta property="og:image" content="">
+<meta property="og:image" content="https://econabdullah.com/wp-content/uploads/2021/03/صنع-في-الصين-4.png">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="http://igmentors.net/">
 <meta property="twitter:title" content="صنع في الصين">
 <meta property="twitter:description" content="إشتر من مصانع الصين مباشرة">
-<meta property="twitter:image" content="">
+<meta property="twitter:image" content="https://econabdullah.com/wp-content/uploads/2021/03/صنع-في-الصين-4.png">
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album-rtl/">
 
