@@ -1,7 +1,16 @@
 @include('partials.header')
 
-
-<form action="submit" method="post">
+@if(Session::get('sucess'))
+<div class="alert alert-success">
+{{ Session::get('sucess')}}
+</div>
+@endif
+@if(Session::get('error'))
+<div class="alert alert-danger">
+{{ Session::get('error')}}
+</div>
+@endif
+<form action="addblogtodb" method="post">
 <input type="hidden" name="method" value="PUT">
 <input type="hidden" name="_token" value="{{ csrf_token() }}">
 @csrf
