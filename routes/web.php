@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\products;
 use App\Http\Controllers\homeProdcutsControllers;
 use App\Http\Controllers\blogController;
+use App\Http\Controllers\userAuthController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -18,6 +20,7 @@ use App\Http\Controllers\blogController;
 
 Route::get('/', [homeProdcutsControllers::class, 'main']);
 Route::get('/blog', [blogController::class, 'main']);
+Route::get('/login', [userAuthController::class, 'main']);
 Route::get('/addblog', [blogController::class, 'add']);
 Route::get('/addproduct',[products::class, 'show']);
 Route::POST('/submit',[products::class, 'save']);
