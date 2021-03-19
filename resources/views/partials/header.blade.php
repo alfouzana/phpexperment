@@ -6,7 +6,7 @@
 <!-- Primary Meta Tags -->
 <title>صنع في الصين</title>
 <meta name="title" content="صنع في الصين">
-<meta name="description" content="إشتر من مصانع الصين مباشرة">
+<meta name="description" content="{{$blog->blogtitle ?? 'صنع في الصين'}}">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
