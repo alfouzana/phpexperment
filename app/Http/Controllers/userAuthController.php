@@ -8,6 +8,6 @@ class userAuthController extends Controller
 {
     function main () {
 
-        return view('login');
+        return view('auth.login');
     }
 }
