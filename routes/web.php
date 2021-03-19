@@ -4,7 +4,6 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\products;
 use App\Http\Controllers\homeProdcutsControllers;
 use App\Http\Controllers\blogController;
-use App\Http\Controllers\userAuthController;
 
 
 /*
@@ -20,11 +19,8 @@ use App\Http\Controllers\userAuthController;
 
 Route::get('/', [homeProdcutsControllers::class, 'main']);
 Route::get('/blog', [blogController::class, 'main']);
-Route::get('/login', [userAuthController::class, 'login']);
-Route::get('/signup', [userAuthController::class, 'signup']);
 Route::get('/addblog', [blogController::class, 'add']);
 Route::get('/addproduct',[products::class, 'show']);
-Route::POST('/create',[userAuthController::class, 'create']);
 Route::POST('/submit',[products::class, 'save']);
 Route::POST('/addblogtodb',[blogController::class, 'save']);
 Route::get('/{name}', [homeProdcutsControllers::class, 'show', '$name']);
