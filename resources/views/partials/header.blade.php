@@ -3,10 +3,24 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.80.0">
-    <title>صنع في الصين</title>
+<!-- Primary Meta Tags -->
+<title>صنع في الصين</title>
+<meta name="title" content="صنع في الصين">
+<meta name="description" content="إشتر من مصانع الصين مباشرة">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://igmentors.net/">
+<meta property="og:title" content="صنع في الصين">
+<meta property="og:description" content="إشتر من مصانع الصين مباشرة">
+<meta property="og:image" content="">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="http://igmentors.net/">
+<meta property="twitter:title" content="صنع في الصين">
+<meta property="twitter:description" content="إشتر من مصانع الصين مباشرة">
+<meta property="twitter:image" content="">
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album-rtl/">
 
